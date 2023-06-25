@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+}
+body{
+  font-family: 'Times New Roman', Times, serif
+}
+.mt-10{
+  margin-top: 10px;
+}
+.App{
+  height: 100vh;
+  background: url('./imgBG.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -50px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn{
+  width: 240px;
+  border-radius: 10px;
+  padding: 20px 0;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #dbe3ef;
+  background: linear-gradient(#030e46, #18214d);
+  border: none;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.4);
+ transition: all 250ms
+}
+.btn:hover{
+  color: #18214d;
+  background: #fff;
+}
+.back{
+  background: #ccc;
+  padding:10px 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+}
+.back:hover{
+  color: #ccc;
+  background: #fff;
+}
+.title h1{
+  background: #dbe3ef;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #18214d;
+  text-align: center;
+}
+.back span{
+  margin-left: 10px;
+}
+.form{
+  background: #dbe3ef;
+  padding: 20px 10px;
+}
+
+.form-group label{
+  display: block;
+  font-size: 16px;
+  color: #18214d;
+}
+.form-group input {
+  width: 90%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  color: #18214d;
+}
+.result{
+  font-size: 20px;
+  color: #e13853;
+}
